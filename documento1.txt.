@@ -1,0 +1,9 @@
+mkdir mi-proyecto
+cd mi-proyecto
+git init
+echo "Hola mundo" > documento1.txt
+git add .
+git commit -m "docs: primer documento de texto"
+git branch -M main
+git remote add origin https://github.com/velasquezreyesjhonsteven-png/cd-mi-proyecto-txt.git
+git push -u origin main
